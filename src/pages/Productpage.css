@@ -1,0 +1,167 @@
+.product-page {
+    margin-top: 10px;
+    display: flex;
+
+    align-items: center;
+  
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin to separate sections */
+  }
+  .photos{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 15px; /* Space between images */
+  }
+  
+  .book-demo-btn {
+    background-color: #ffdd00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .book-demo-btn:hover {
+    background-color: #e0c600;
+  }
+  
+  .brands-text {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  .brands-logos {
+  width: 100px;
+  height: auto;
+  }
+  
+  .booking-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align:left; /* Center align the text in booking info */
+    margin-bottom: 20px;
+    margin-left: 400px;
+
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-size: 29px;
+    margin-bottom: 15px;
+  }
+  
+  .timer {
+    font-size: 18px;
+    color: #16a085;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-container {
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    width: 22.1%; /* Adjust for 62 out of 280 pieces */
+    height: 100%;
+    background-color: #2ecc71;
+    border-radius: 8px;
+  }
+  
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .terms {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .terms h3 {
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .terms ol {
+    font-size: 14px;
+    color: #7f8c8d;
+    line-height: 1.5;
+  }
+  
+  .market-price {
+    text-decoration: line-through;
+    color: #bdc3c7;
+    margin-bottom: 15px;
+  }
+  
+  .payment-buttons {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%; /* Make buttons full width */
+  }
+  
+  .btn:hover {
+    background-color: #a93226;
+  }
+  
+  .pre-book {
+    background-color: #c0392b;
+  }
+  
+  .pre-book:hover {
+    background-color: #e74c3c;
+  }
+  
+  .show-details {
+    background-color: #f39c12;
+  }
+  
+  .show-details:hover {
+    background-color: #d35400;
+  }
+  
+  .brochure {
+    margin-top: 40px;
+    width: 80%;
+  }
+  

@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004C3F;
+    padding: 20px 20px;
+    color: white;
+    
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left .navbar-text, .navbar-right .navbar-text {
+    margin: 0 25px;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.join-btn {
+    background-color: #e6e847;
+    color: rgb(0, 0, 0);
+    padding: 18px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.join-btn:hover {
+    background-color: #79761b;
+}
+.logo{
+    width: 70px;  /* Set width in pixels */
+    height: auto;
+}
