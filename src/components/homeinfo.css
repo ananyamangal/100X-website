@@ -1,0 +1,28 @@
+.page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin-left: 160px;
+   margin-bottom: 100px;
+
+
+}
+.p{
+    color: black;
+    margin-top: 0px;
+
+}
+.content{
+    padding-right: 150px;
+}
+.id{
+    color: rgb(6, 142, 96);
+    margin-bottom: 0px;
+}
+.h1{
+    font-size: larger
+}
+.graphic{
+    height: auto;
+    width: 300px;
+}

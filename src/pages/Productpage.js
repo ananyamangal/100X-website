@@ -1,15 +1,17 @@
 import React from 'react';
 import './Productpage.css';
-import productImage from '../images/imageeee.png'; // Make sure to replace this with your actual image path
 import brochure from '../images/brochure.png';
 import comp from '../images/comp.png';
+import Slideshow from '../components/productslideshow';
 const ProductPage = () => {
   return (
     <div>
     <div className="product-page">
         <div className='photos'>
       <div className="product-info">
-        <img src={productImage} alt="Product" className="product-image" />
+      <div className="slide">
+        <Slideshow />
+      </div>
         <h2>Rs 17000</h2>
       </div>
       <div className="brands-logos">
@@ -46,7 +48,11 @@ const ProductPage = () => {
         </div>
 
         <div className="payment-buttons">
-          <button className="btn pay-now">Pay Rs 1700 Now Price (Rs 17000)</button>
+          <button className="btn-pay-now">Pay Rs 1700 Now Price (Rs 17000)</button>
+          <div className='bookbutton'>
+          <button className="btn-booknow">Book Live Demo</button>
+          </div>
+          
        
         </div>
       </div>

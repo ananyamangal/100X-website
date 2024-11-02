@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .instagram-embed {
+    max-width: 500px; /* Adjust as necessary */
+    margin: 20px auto; /* Centers the embed */
+    border-radius: 20px;
+  }
+  .reel-container {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 16px; /* Space between reels */
+    padding: 16px; /* Padding around the container */
+  }
+  
+  .reel-item {
+    flex: 0 0 auto; /* Prevents shrinking */
+    max-width: 540px; /* Matches Instagram's max width */
+  }
